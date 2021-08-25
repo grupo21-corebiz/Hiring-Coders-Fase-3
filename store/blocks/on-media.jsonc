@@ -1,0 +1,9 @@
+{
+    "rich-text#on-media": {
+        "props": {
+            "text": "on-media",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER"
+        }
+    }
+}
