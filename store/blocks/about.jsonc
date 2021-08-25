@@ -2,6 +2,7 @@
     "store.custom#about": {
         "blocks": [
             "rich-text#who-we-are",
+            "rich-text#vision-and-values",
             "rich-text#our-framework",
             "rich-text#on-media",
             "rich-text#corebiz-worldwide",
