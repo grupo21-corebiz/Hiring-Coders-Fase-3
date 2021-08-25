@@ -48,8 +48,11 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
+      "url": "https://www.corebiz.ag/wp-content/uploads/2020/06/logo-corebiz-global.svg",
+      "width": 105,
+      "height": 23.63,
+      "mobileWidth": 90,
+      "mobileHeight": 32
     }
   },
   "header-layout.mobile": {
