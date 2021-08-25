@@ -1,0 +1,9 @@
+{
+    "rich-text#our-framework": {
+        "props": {
+            "text": "our-framework",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER"
+        }
+    }
+}

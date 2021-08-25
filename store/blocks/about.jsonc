@@ -1,0 +1,12 @@
+{
+    "store.custom#about": {
+        "blocks": [
+            "rich-text#who-we-are",
+            "rich-text#our-framework",
+            "rich-text#on-media",
+            "rich-text#corebiz-worldwide",
+            "rich-text#our-numbers",
+            "rich-text#contact-area"
+        ]
+    }
+}

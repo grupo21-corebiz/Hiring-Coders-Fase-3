@@ -1,0 +1,9 @@
+{
+    "rich-text#who-we-are": {
+        "props": {
+            "text": "Who we are timeline",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER"
+        }
+    }
+}
