@@ -2,7 +2,8 @@
     "store.custom#sign-up": {
         "blocks": [
             "image#sign-up",
-            "flex-layout.row#signup-text"
+            "flex-layout.row#signup-text",
+            "image#blank"
         ]
     },
     "flex-layout.row#signup-text": {
@@ -39,6 +40,13 @@
         "props": {
             "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/contato-page-header-image.jpg",
             "blockClass": "signup-image",
+            "fullWidth": true,
+            "width": "grow"
+        }
+    },
+    "image#blank": {
+        "props": {
+            "src": "https://www.xmple.com/wallpaper/single-plain-white-one-colour-solid-color-1920x1080-c-ffffff-f-24.svg",
             "fullWidth": true,
             "width": "grow"
         }

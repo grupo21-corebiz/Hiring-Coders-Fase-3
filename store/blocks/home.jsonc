@@ -2,7 +2,8 @@
   "store.home": { 
     "blocks": [
       "flex-layout.row#text",
-      "image#about-corebiz"
+      "image#about-corebiz",
+      "image#blank"
     ]
   },
   "flex-layout.row#text": {
@@ -42,5 +43,12 @@
       "fullWidth": true,
       "width": "grow"
     }
-  }
+  },
+  "image#blank": {
+    "props": {
+        "src": "https://www.xmple.com/wallpaper/single-plain-white-one-colour-solid-color-1920x1080-c-ffffff-f-24.svg",
+        "fullWidth": true,
+        "width": "grow"
+    }
+}
 }
