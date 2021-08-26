@@ -31,7 +31,7 @@
         "highlight": false,
         "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/about",
             "noFollow": true,
             "tagTitle": "a corebiz",
             "text": "a corebiz"
