@@ -1,15 +1,6 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text#title"
     ]
-  },
-  "rich-text#title": { 
-    "props": { 
-      "text": "**a corebiz**",
-      "textAlignment": "CENTER",
-      "textPosition": "LEFT",
-      "font": "t-heading-1"
-    }
   }
 }
