@@ -36,7 +36,7 @@
   },
   "flex-layout.col#spacer1": {
     "props": {
-      "marginRight": 8
+      "marginRight": 10
     }
   },
   "flex-layout.col#spacer2": {
