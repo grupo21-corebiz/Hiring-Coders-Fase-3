@@ -5,8 +5,6 @@
 .imageElement--intro-about-corebiz {
     position: absolute;
     right: -16.5rem;
-    max-width: 100%;
-    height: auto;
 }
 
 :global(.vtex-store__template) {
