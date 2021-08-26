@@ -4,3 +4,6 @@
     z-index: 999;
     background-image: linear-gradient(180deg,rgba(0,0,0,.59),transparent);
 }
+:global(.vtex-store-footer-2-x-footerLayout) {
+    margin-top: 100px;
+}
