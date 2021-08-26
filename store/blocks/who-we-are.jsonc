@@ -5,5 +5,10 @@
             "textPosition": "CENTER",
             "textAlignment": "CENTER"
         }
+    },
+    "image#blank": {
+        "props": {
+            "src": "https://www.xmple.com/wallpaper/single-plain-white-one-colour-solid-color-1920x1080-c-ffffff-f-24.svg"
+        }
     }
 }
