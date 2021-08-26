@@ -1,0 +1,104 @@
+{
+    "vtex.menu@2.x:menu#header-menu": {
+        "props": {"experimentalOptimizeRendering": true},
+        "children": [
+            "menu-item#acorebiz",
+            "menu-item#servicos",
+            "menu-item#cases",
+            "menu-item#contato",
+            "menu-item#careers",
+            "menu-item#blog"
+        ]
+    },
+    "menu-item#acorebiz": {
+        "props": {
+            "id": "menu-item-acorebiz",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "a corebiz",
+                "text": "a corebiz"
+            }
+        }
+    },
+
+  "menu-item#servicos": {
+    "props": {
+      "id": "menu-item-servicos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "serviços",
+        "text": "serviços"
+      }
+    }
+  },
+  "menu-item#cases": {
+    "props": {
+      "id": "menu-item-cases",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "cases",
+        "text": "cases"
+      }
+    }
+  },
+  "menu-item#contato": {
+    "props": {
+      "id": "menu-item-contato",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "contato",
+        "text": "contato"
+      }
+    }
+  },
+  "menu-item#careers": {
+    "props": {
+      "id": "menu-item-careers",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "careers",
+        "text": "careers"
+      }
+    }
+  },
+  "menu-item#blog": {
+    "props": {
+      "id": "menu-item-servicos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "blog",
+        "text": "blog"
+      }
+    }
+  }
+}

@@ -7,31 +7,42 @@
   },
   "header-layout.desktop": {
     "children": [
-      "sticky-layout#desktop"
+      "flex-layout.row#desktop"
     ]
   },
-  "sticky-layout#desktop": {
-    "props": {
-      "blockClass": "sticky-header"
-    },
-    "children": ["flex-layout.row#desktop"]
+  "header-layout.mobile": {
+    "children": [
+      "flex-layout.row#desktop"
+    ]
   },
   "flex-layout.row#desktop": {
     "props": {
+      "block-class": "main-header",
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "preserveLayoutOnMobile": true
     },
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
-      "search-bar",
+      "vtex.menu@2.x:menu#header-menu",
+      "flex-layout.col#spacer1",
       "locale-switcher",
-      "login",
-      "minicart.v2"
+      "flex-layout.col#spacer2"
     ]
+  },
+  "flex-layout.col#spacer1": {
+    "props": {
+      "marginRight": 8
+    }
+  },
+  "flex-layout.col#spacer2": {
+    "props": {
+      "marginRight": 8
+    }
   },
   "flex-layout.col#spacer": {
     "props": {
@@ -48,32 +59,11 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
+      "url": "https://www.corebiz.ag/wp-content/uploads/2020/06/logo-corebiz-global.svg",
+      "width": 105,
+      "height": 23.63,
+      "mobileWidth": 90,
+      "mobileHeight": 32
     }
-  },
-  "header-layout.mobile": {
-    "children": ["sticky-layout#mobile"]
-  },
-  "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile"]
-  },
-  "flex-layout.row#mobile": {
-    "children": [
-      "drawer",
-      "logo",
-      "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
-    ],
-    "props": {
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
-  },
-  "drawer": {
-    "children": []
   }
 }
