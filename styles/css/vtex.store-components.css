@@ -8,6 +8,12 @@
     top: 0;
 }
 
+.imageElement--signup-image {
+    position: absolute;
+    right: -16.5rem;
+    top: 0;
+}
+
 :global(.vtex-store__template) {
     position: relative;
     overflow-x: hidden;

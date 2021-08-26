@@ -1,6 +1,46 @@
 {
     "store.custom#sign-up": {
         "blocks": [
+            "image#sign-up",
+            "flex-layout.row#signup-text"
         ]
+    },
+    "flex-layout.row#signup-text": {
+        "children": [
+          "flex-layout.col#signup-texts"
+        ]
+    },
+    "flex-layout.col#signup-texts": {
+        "children": [
+          "rich-text#signup-title",
+          "rich-text#signup-paragraph"
+        ],
+        "props": {
+          "blockClass": "signup-text"
+        }
+    },
+    "rich-text#signup-title": { 
+        "props": { 
+          "blockClass": "signup-title",
+          "text": "**cadastro**",
+          "textAlignment": "CENTER",
+          "textPosition": "LEFT",
+          "font": "t-heading-1"
+        }
+    },
+    "rich-text#signup-paragraph": {
+        "props": {
+          "blockClass": "signup-paragraph",
+          "text": "seja um de nossos clientes e venha conhecer nossos produtos (texto exemplo).",
+          "font": "small"
+        }
+    },
+    "image#sign-up": {
+        "props": {
+            "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/contato-page-header-image.jpg",
+            "blockClass": "signup-image",
+            "fullWidth": true,
+            "width": "grow"
+        }
     }
 }
