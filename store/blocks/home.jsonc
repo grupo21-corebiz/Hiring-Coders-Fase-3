@@ -1,12 +1,12 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "rich-text#title"
     ]
   },
-  "rich-text": { 
+  "rich-text#title": { 
     "props": { 
-      "text": "a corebiz",
+      "text": "**a corebiz**",
       "textAlignment": "CENTER",
       "textPosition": "LEFT",
       "font": "t-heading-1"
