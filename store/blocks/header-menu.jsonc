@@ -4,10 +4,9 @@
         "children": [
             "menu-item#acorebiz",
             "menu-item#servicos",
-            "menu-item#cases",
             "menu-item#contato",
             "menu-item#careers",
-            "menu-item#blog"
+            "menu-item#signup"
         ]
     },
     "menu-item#acorebiz": {
@@ -18,7 +17,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/",
                 "noFollow": true,
                 "tagTitle": "a corebiz",
                 "text": "a corebiz"
@@ -38,21 +37,6 @@
         "noFollow": true,
         "tagTitle": "serviços",
         "text": "serviços"
-      }
-    }
-  },
-  "menu-item#cases": {
-    "props": {
-      "id": "menu-item-cases",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "cases",
-        "text": "cases"
       }
     }
   },
@@ -86,18 +70,18 @@
       }
     }
   },
-  "menu-item#blog": {
+  "menu-item#signup": {
     "props": {
-      "id": "menu-item-servicos",
+      "id": "menu-item-signup",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/sign-up",
         "noFollow": true,
-        "tagTitle": "blog",
-        "text": "blog"
+        "tagTitle": "cadastre-se",
+        "text": "cadastre-se"
       }
     }
   }
