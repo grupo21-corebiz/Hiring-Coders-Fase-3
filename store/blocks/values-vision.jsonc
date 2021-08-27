@@ -1,0 +1,55 @@
+{
+    "flex-layout.row#values-vision": {
+        "children": [
+            "flex-layout.col#vision",
+            "flex-layout.col#values"
+        ],
+        "props": {
+            "blockClass": "flex-vision-values"
+        }
+    },
+    "flex-layout.col#vision": {
+        "children": [
+            "rich-text#title-vision",
+            "rich-text#vision"
+        ],
+        "props": {
+            "blockClass": "vision-col",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.col#values": {
+        "children": [
+            "rich-text#title-values",
+            "rich-text#values"
+        ],
+        "props": {
+            "blockClass": "values-col",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#title-vision": {
+        "props": {
+            "blockClass": "vision-title",
+            "text": "vision"
+        }
+    },
+    "rich-text#vision": {
+        "props": {
+            "blockClass": "vision-text",
+            "text": "To be the largest company of experience, technology and marketing for commerce in Latin America."
+        }
+    },
+    "rich-text#title-values": {
+        "props": {
+            "blockClass": "values-title",
+            "text": "values"
+        }
+    },
+    "rich-text#values": {
+        "props": {
+            "blockClass": "values-text",
+            "text": ".determination<br>.innovation<br>.courage<br>.agility<br>.collaboration"
+        }
+    }
+}
