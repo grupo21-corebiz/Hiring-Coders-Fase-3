@@ -26,3 +26,42 @@
     font-size: 2.4rem;
     font-weight: 600;
 }
+=======
+.strong {
+    max-width: 50rem;
+    font-size: 5.4rem;
+}
+
+.container--acorebiz-title {
+    margin-top: 7rem;
+}
+.container--signup-title {
+    margin-top: 7rem;
+}
+
+:global(.vtex-rich-text-0-x-container--acorebiz-paragraph) {
+    width: 18%;
+    margin-left: 7.5rem;
+    margin-top: -7.5rem;
+    margin-bottom: 10rem;
+}
+
+:global(.vtex-rich-text-0-x-container--signup-paragraph) {
+    width: 18%;
+    margin-left: 7.5rem;
+    margin-top: -7.5rem;
+    margin-bottom: 10rem;
+}
+
+.paragraph--acorebiz-paragraph {
+    max-height: 28.5rem;
+    font-size: 1.13rem;
+    line-height: 1.4;
+}
+
+.paragraph--signup-paragraph {
+    max-height: 28.5rem;
+    font-size: 1.13rem;
+    line-height: 1.4;
+}
+

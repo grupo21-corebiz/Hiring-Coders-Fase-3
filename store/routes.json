@@ -1,0 +1,11 @@
+{
+  "store.home": {
+    "path": "/"
+  },
+  "store.custom#about": {
+    "path": "/about"
+  },
+  "store.custom#sign-up": {
+    "path": "/sign-up"
+  }
+}

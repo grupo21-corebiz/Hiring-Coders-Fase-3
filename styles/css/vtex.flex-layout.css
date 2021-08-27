@@ -31,3 +31,18 @@
     width: 100vw;
 }
 
+.flexRowContent--main-header {
+    position: absolute;
+    padding-bottom: 8rem;
+    z-index: 1;
+    background-image: linear-gradient(180deg,rgba(0,0,0,.59),transparent);
+}
+
+:global(.vtex-menu-2-x-styledLinkContent) {
+    transition: .3s;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent):hover {
+    opacity: .4;
+}
+

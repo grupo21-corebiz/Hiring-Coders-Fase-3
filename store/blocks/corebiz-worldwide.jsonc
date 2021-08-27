@@ -1,0 +1,9 @@
+{
+    "rich-text#corebiz-worldwide": {
+        "props": {
+            "text": "corebiz-worldwide",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER"
+        }
+    }
+}

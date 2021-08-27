@@ -1,0 +1,9 @@
+{
+    "rich-text#our-numbers": {
+        "props": {
+            "text": "our-numbers",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER"
+        }
+    }
+}
