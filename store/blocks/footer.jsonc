@@ -9,7 +9,10 @@
     "children": [
       "flex-layout.row#footer-desktop",
       "flex-layout.row#footer-desktop1"
-    ]
+    ],
+    "props": {
+      "fullWidth": true
+    }
   },
   "flex-layout.row#footer-desktop1": {
     "children": [
