@@ -1,3 +1,32 @@
+.paragraph--vision-text{
+    font-family: Circular Std Medium,sans-serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.paragraph--vision-title{
+    font-family: Circular Std Medium,sans-serif;
+    color: #f1c233;
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-left: -50%;
+}
+
+.paragraph--values-text{
+    font-family: Circular Std Medium,sans-serif;
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.paragraph--values-title{
+    font-family: Circular Std Medium,sans-serif;
+    color: #f1c233;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
 .strong {
     max-width: 50rem;
     font-size: 5.4rem;
@@ -35,3 +64,5 @@
     font-size: 1.13rem;
     line-height: 1.4;
 }
+
+

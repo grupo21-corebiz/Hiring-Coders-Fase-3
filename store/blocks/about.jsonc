@@ -3,7 +3,7 @@
         "blocks": [
             "flex-layout.row#text",
             "image#about-corebiz",
-            "image#blank"
+            "flex-layout.row#values-vision"
         ]
     },
     "flex-layout.row#text": {
@@ -51,4 +51,5 @@
             "width": "grow"
         }
     }
+
 }
