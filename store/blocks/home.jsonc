@@ -1,7 +1,98 @@
 {
   "store.home": { 
     "blocks": [
-      "image#blank"
+      "image#blank",
+      "slider-layout#home",
+      "search-result-layout.customQuery#home"
     ]
+  },
+  "slider-layout#home": {
+    "props": {
+      "fullWidth": false,
+      "showNavigationArrows": "always",
+      "arrowSize": 12,
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  },
+  // Criação da busca de produtos 
+  "search-result-layout.customQuery#home": {
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#lp",
+      "search-result-layout.mobile"
+    ]
+  },
+  "search-result-layout.desktop#lp": {
+    "children": [
+      "search-content#lp"
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
+  },
+  "search-content#lp": {
+    "blocks": [
+      "gallery#lp",
+      "not-found"
+    ]
+  },
+  // Criação do bloco lista de produtos
+  "gallery#lp": {
+    "props": {
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "(min-width: 1300px)": 2,
+            "desktop": 2,
+            "tablet": 2,
+            "phone": 1
+          }
+        },
+        {
+          "name": "list",
+          "component": "ListSummary",
+          "itemsPerRow": 1
+        }
+      ],
+      "ListSummary": "product-summary.shelf#lp",
+      "GridSummary": "product-summary.shelf#lp"
+    }
+  },
+  "product-summary.shelf#lp": {
+    "children": [
+      "product-summary-name",
+      "product-images#lp",
+      "product-summary-price",
+      "add-to-cart-button#lp"
+    ],
+    "props": {
+      "blockClass": [
+        "produtos, imagens"
+      ]
+    }
+  },
+  "product-images#lp": {
+    "props": {
+      "showNavigationArrows": "true",
+      "showPaginationDots": true
+    }
+  },
+  "add-to-cart-button#lp": {
+    "props": {
+      "onClickBehavior": "go-to-product-page",
+      "text": "Adicionar ao carrinho"
+    }
   }
 }

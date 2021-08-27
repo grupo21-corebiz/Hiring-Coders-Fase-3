@@ -19,3 +19,11 @@
     font-size: 1.13rem;
     line-height: 1.4;
 }
+.paragraph {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-top: 1rem;
+    max-width: 16rem;
+    margin-left: 120px;
+}
