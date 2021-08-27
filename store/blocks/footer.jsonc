@@ -1,121 +1,26 @@
 {
   "footer": {
-    "blocks": [
-      "footer-layout.desktop",
-      "footer-layout.mobile"
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": { 
+    "children": [
+      "flex-layout.row#footer"
     ]
   },
-  "footer-layout.desktop": {
+  "footer-layout.mobile": { 
     "children": [
-      "flex-layout.row#footer-desktop",
-      "flex-layout.row#footer-desktop1"
+      "flex-layout.row#footer"
     ]
   },
-  "flex-layout.row#footer-desktop1": {
+  "flex-layout.row#footer": { 
     "children": [
-      "social-networks"
-    ]
-  },
-  "flex-layout.row#footer-mobile1": {
-    "children": [
-      "social-networks"
-    ]
-  },
-  "footer-layout.mobile": {
-    "children": [
-      "flex-layout.row#footer-mobile",
-      "flex-layout.row#footer-mobile1"
-    ]
-  },
-  "flex-layout.row#footer-desktop": {
-    "children": [
-      "rich-text#Brasil",
-      "rich-text#Argentina",
-      "rich-text#Mexico",
-      "rich-text#Chile",
       "image"
-    ],
-    "props": {
-      "blockClass": "text-footer"
-    }
-  },
-  "flex-layout.row#footer-mobile": {
-    "children": [
-      "rich-text#Brasil",
-      "rich-text#Argentina",
-      "rich-text#Mexico",
-      "rich-text#Chile",
-  
-      "image"
-    ],
-    "props": {
-      "blockClass": "text-footer"
-    }
-  },
-  "rich-text#Brasil": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "Brasil\n\n Avenida Andrômeda, 2000.\n Bloco 6 e 8 Alphaville SP\n\n R. Ifigenia Maria de Oliveira,\n 3793 - Jr. Piratininga Franca SP",
-      "textColor": "c-on-brasil",
-      "font": "small",
-      "blockClass": "brasil"
-    }
-  },
-  "rich-text#Argentina": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "Argentina\n\n Soler 5518, 3 Piso C1425BYF\n Palermo Hollywood CABA",
-      "textColor": "c-on-argentina",
-      "font": "small",
-      "blockClass": "argentina"
-    }
-  },
-  "rich-text#Mexico": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "México\n\n Blvd. Miguel de Cervantes\nSaavedra 169, Granada, Miguel\n Hidalgo, 11520 Ciudad de\n México, CDMX",
-      "textColor": "c-on-mexico",
-      "font": "small",
-      "blockClass": "mexico"
-    }
-  },
-  "rich-text#Chile": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "Chile\n\n Roberto del Río 1137,\n Providencia. ",
-      "textColor": "c-on-chile",
-      "font": "small",
-      "blockClass": "chile"
-    }
-  },
-  "social-networks": {
-    "props": {
-      "blockClass": "networks",
-      "title": "Siga a gente",
-      "socialNetworks": [
-        {
-          "url": "https://www.instagram.com/corebizag/",
-          "name": "Instagram"
-        },
-        {
-          "url": "https://pt-br.facebook.com/corebiz.ag/",
-          "name": "Facebook"
-        },
-        {
-          "url": "https://www.linkedin.com/company/corebiz-brasil/",
-          "name": "LinkedIn"
-        }
-      ]
-    }
+    ]
   },
   "image": {
     "props": {
-      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAeFBMVEUAAAD////Ozs4JCQnl5eUREREEBAT8/Pz09PQgICCNjY1TU1Pw8PAQEBCqqqqhoaE1NTUbGxtpaWmTk5O0tLS9vb1JSUnf399kZGTZ2dk9PT0sLCyFhYXFxcVycnLLy8t8fHxDQ0NOTk6amppZWVkoKCh4eHitra0vR/+gAAADSElEQVR4nO3a2XaiQBAG4MiObGEVF1xCjO//hqMODtUCLY7n0GXO/10aLuoPXd1Nw8cHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKOB62zTM8jyL5tuDqbqa/6QX9WIm0OYrS3VVT3PnxqzL1kpddWVPMedOT4yrxfcb3RVvMRTjInyXZtFTW5ZjNluuVZc4SryTxzjzV6qLHMFdPszxFklcaXu0SbiPrqBnXNlnnR+XvDveyu7qNepytXbd9WF78sW/hKprldqKxeYFWTP0Uhx1nroyH1oLy+Di6+7PQU2H2ILvGm/lNMeppwu2NEkyfYUjfdEcde9OZE/7nestseiMFQ7sqCJyTTFtfaMdSI3a0H/bJB0fTVreeGFbojO83n3/u8jOJizuCQFZKObDl1lakzX6nK62p3jkhsSS68rr3LuXXaIWaWPp4DcdO/e4TlgXZNcrn44S3hvGuF3r/EB1Ma8gk2+lupaXlG2QVHUtLyGbD76bqDHSNsj9rve9kNmX/wO5DNmgcF2yxzn9liC/ZmjVYxd27jZtkFJ1LS8hC+JGdS0vKdogTB+YRnLbTaPBeZP+GHlD9d7zL1lIJE+6Z+6pYP3SinS7fGz9zGZawvgMOybnpbL9r359lDTm7mSVPYscmBqSf3jSXGOHXHcA5BhFcvwQk0nh0Px2TDbp3mMz2nT60m1wcJE3KE0rxelOu6gSLnNAQoLY3/3X0FPs/fWXda7dpEwWIF2jSXrvCX2v4F/HkplpLfm8PR2yTbn0SWfQ6xv6fuTn+tuPRnHp/1RIYiTCULEKeseaA/tgJwSp1dTdIQyuS5S0aG5LsNqLL+Cdv/uYg5BD23GZuo6db4KcZZXnu0XnI5umhUoxiHZUW3/rMPhZkOh2iHcfhM+5cDEqSXRbMry7IIzeNqz8J3J8uGKOjMuaeLHWHsSwN6TcSAjC67Q1iKQfbBnCNw+fdP7NmCzt/xTD3zrZp7v9O2n3ik+r3+jlQJSqe+jlVU2OE5u5l7KKqNP1Rtr7NG9uw6rK6y9OjS7QV/ts6TvnhrEdX4u2n8MdoAdsU9zoZnx0Y5NbFwMAAAAAAAAAAAAAAAAAAAAAALD0B0kdIDem/wcOAAAAAElFTkSuQmCC",
-      "link": "https://www.corebiz.ag/pt/"
+      "width": 100,
+      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
     }
   }
 }
