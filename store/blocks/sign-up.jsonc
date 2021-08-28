@@ -3,7 +3,7 @@
         "blocks": [
             "image#sign-up",
             "flex-layout.row#signup-text",
-            "image#blank"
+            "reactform"
         ]
     },
     "flex-layout.row#signup-text": {
