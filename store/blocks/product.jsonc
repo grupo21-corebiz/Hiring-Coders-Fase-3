@@ -2,6 +2,7 @@
 {
   "store.product": {
     "children": [
+      "image#blank",
       "flex-layout.row#main"
     ]
   },
