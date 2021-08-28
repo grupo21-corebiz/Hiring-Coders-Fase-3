@@ -1,4 +1,33 @@
-.strong--acorebiz-title {
+.paragraph--vision-text{
+    font-family: Circular Std Medium,sans-serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.paragraph--vision-title{
+    font-family: Circular Std Medium,sans-serif;
+    color: #f1c233;
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-left: -50%;
+}
+
+.paragraph--values-text{
+    font-family: Circular Std Medium,sans-serif;
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.paragraph--values-title{
+    font-family: Circular Std Medium,sans-serif;
+    color: #f1c233;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.strong {
     max-width: 50rem;
     font-size: 5.4rem;
 }
@@ -6,8 +35,18 @@
 .container--acorebiz-title {
     margin-top: 7rem;
 }
+.container--signup-title {
+    margin-top: 7rem;
+}
 
 :global(.vtex-rich-text-0-x-container--acorebiz-paragraph) {
+    width: 18%;
+    margin-left: 7.5rem;
+    margin-top: -7.5rem;
+    margin-bottom: 10rem;
+}
+
+:global(.vtex-rich-text-0-x-container--signup-paragraph) {
     width: 18%;
     margin-left: 7.5rem;
     margin-top: -7.5rem;
@@ -27,3 +66,11 @@
     max-width: 16rem;
     margin-left: 120px;
 }
+
+.paragraph--signup-paragraph {
+    max-height: 28.5rem;
+    font-size: 1.13rem;
+    line-height: 1.4;
+}
+
+

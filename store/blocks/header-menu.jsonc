@@ -1,103 +1,70 @@
 {
-    "vtex.menu@2.x:menu#header-menu": {
+  "vtex.menu@2.x:menu#header-menu": {
         "props": {"experimentalOptimizeRendering": true},
         "children": [
+            "menu-item#home",
             "menu-item#acorebiz",
-            "menu-item#servicos",
-            "menu-item#cases",
-            "menu-item#contato",
-            "menu-item#careers",
-            "menu-item#blog"
+            "menu-item#signup",
+            "menu-item#signin"
         ]
-    },
-    "menu-item#acorebiz": {
-        "props": {
-            "id": "menu-item-acorebiz",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "noFollow": true,
-                "tagTitle": "a corebiz",
-                "text": "a corebiz"
-            }
+  },
+  "menu-item#home": {
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "home",
+        "text": "home"
+      }
+    }
+  },
+  "menu-item#acorebiz": {
+    "props": {
+        "id": "menu-item-acorebiz",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/about",
+            "noFollow": true,
+            "tagTitle": "a corebiz",
+            "text": "a corebiz"
         }
-    },
-
-  "menu-item#servicos": {
+    }
+  },
+  "menu-item#signup": {
     "props": {
-      "id": "menu-item-servicos",
+      "id": "menu-item-signup",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/sign-up",
         "noFollow": true,
-        "tagTitle": "serviços",
-        "text": "serviços"
+        "tagTitle": "cadastre-se",
+        "text": "cadastre-se"
       }
     }
   },
-  "menu-item#cases": {
+  "menu-item#signin": {
     "props": {
-      "id": "menu-item-cases",
+      "id": "menu-item-signin",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/sign-in",
         "noFollow": true,
-        "tagTitle": "cases",
-        "text": "cases"
-      }
-    }
-  },
-  "menu-item#contato": {
-    "props": {
-      "id": "menu-item-contato",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "contato",
-        "text": "contato"
-      }
-    }
-  },
-  "menu-item#careers": {
-    "props": {
-      "id": "menu-item-careers",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "careers",
-        "text": "careers"
-      }
-    }
-  },
-  "menu-item#blog": {
-    "props": {
-      "id": "menu-item-servicos",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "blog",
-        "text": "blog"
+        "tagTitle": "entrar",
+        "text": "entrar"
       }
     }
   }
