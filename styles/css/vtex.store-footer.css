@@ -1,6 +1,11 @@
 .socialNetworksTitle {
     color: #FFFFFF;
 }
+
 .socialNetworkWrapper--networks {
     margin-left: 120px;
+}
+
+.footerlayout {
+    background: black !important;
 }

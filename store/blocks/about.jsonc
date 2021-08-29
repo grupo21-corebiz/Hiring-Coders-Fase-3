@@ -1,10 +1,16 @@
 {
     "store.custom#about": {
         "blocks": [
+            "image#about",
             "flex-layout.row#text",
             "image#about-corebiz",
             "flex-layout.row#values-vision"
         ]
+    },
+    "image#about": {
+      "props":{
+        "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/Banner-Mapa-Corebiz-BR.png"
+      }
     },
     "flex-layout.row#text": {
         "children": [

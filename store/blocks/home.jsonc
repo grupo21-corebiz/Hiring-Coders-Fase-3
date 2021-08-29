@@ -1,10 +1,15 @@
 {
   "store.home": {
     "blocks": [
-      "image#blank",
-      "slider-layout#home",
-      "search-result-layout.customQuery#home"
+      "image#home",
+      "search-result-layout.customQuery#home",
+      "reactform"
     ]
+  },
+  "image#home": {
+    "props":{
+      "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/Banner-Mapa-Corebiz-BR.png"
+    }
   },
   "slider-layout#home": {
     "props": {

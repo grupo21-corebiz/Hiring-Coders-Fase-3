@@ -9,15 +9,15 @@
     "children": [
       "flex-layout.row#footer-desktop",
       "flex-layout.row#footer-desktop1"
-    ],
-    "props": {
-      "fullWidth": true
-    }
+    ]
   },
   "flex-layout.row#footer-desktop1": {
     "children": [
       "social-networks"
-    ]
+    ],
+    "props": {
+      "blockClass": "darkBackground"
+    }
   },
   "flex-layout.row#footer-mobile1": {
     "children": [
@@ -39,7 +39,7 @@
       "image"
     ],
     "props": {
-      "blockClass": "text-footer"
+      "blockClass": ["text-footer", "darkBackground"]
     }
   },
   "flex-layout.row#footer-mobile": {
@@ -48,7 +48,6 @@
       "rich-text#Argentina",
       "rich-text#Mexico",
       "rich-text#Chile",
-  
       "image"
     ],
     "props": {

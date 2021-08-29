@@ -2,8 +2,7 @@
     "store.custom#sign-up": {
         "blocks": [
             "image#sign-up",
-            "flex-layout.row#signup-text",
-            "reactform"
+            "flex-layout.row#signup-text"
         ]
     },
     "flex-layout.row#signup-text": {
