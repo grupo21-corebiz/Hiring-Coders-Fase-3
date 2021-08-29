@@ -1,11 +1,53 @@
 .logoContainer {
-    margin-left: 4rem;
+    display: block;
 }
 
-.imageElement--intro-about-corebiz {
-    position: absolute;
-    right: -16.5rem;
+@media screen and (min-width: 1024px) {
+    .logoContainer {
+        margin-left: 4rem;
+    }
 }
+
+@media screen and (min-width: 1024px) {
+    .imageElement--signup-image {
+        position: absolute;
+        height: 700px;
+        left: 45%;
+        top: 0;
+    }
+    .imageElement--intro-about-corebiz {
+        position: absolute;
+        height: 700px;
+        left: 45%;
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .imageElement--signup-image {
+        position: absolute;
+        padding-left: 2.5%;
+        top: 15%;
+        z-index: 1;
+    }
+    .imageElement--intro-about-corebiz {
+        position: absolute;
+        padding-left: 2.5%;
+        top: 15%;
+        z-index: 1;
+    }
+    .imageElement--blank-image {
+        height: 70rem;
+        width: 100%;
+        bottom: 314.5px;
+    }
+    .container--signup-paragraph {
+        margin-bottom: 25%;
+    }
+    .container--acorebiz-paragraph {
+        margin-bottom: 25%;
+    }
+}   
 
 :global(.vtex-store__template) {
     position: relative;

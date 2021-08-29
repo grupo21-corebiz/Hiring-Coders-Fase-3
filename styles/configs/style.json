@@ -326,7 +326,7 @@
       "heading-1": {
         "fontFamily": "Circular Std Medium, sans-serif",
         "fontWeight": "300",
-        "fontSize": "6rem",
+        "fontSize": "5rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },

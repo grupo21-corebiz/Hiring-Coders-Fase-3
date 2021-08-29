@@ -9,3 +9,11 @@
 .footerlayout {
     background: black !important;
 }
+.flexRowContent--text-footer {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-top: 1rem;
+    max-width: 16rem;
+    margin-left: 120px;
+}

@@ -52,9 +52,10 @@
     },
     "image#blank": {
         "props": {
-            "src": "https://www.xmple.com/wallpaper/single-plain-white-one-colour-solid-color-1920x1080-c-ffffff-f-24.svg",
+            "src": "https://www.colorbook.io/imagecreator.php?hex=ffffff&width=1920&height=1080",
             "fullWidth": true,
-            "width": "grow"
+            "width": "grow",
+            "blockClass": "blank-image"
         }
     }
 

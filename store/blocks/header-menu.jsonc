@@ -80,13 +80,7 @@
     },
     "children": [
       "login"
-    ],
-    "props": {
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
+    ]
   },
   "login": {
     "props": {
