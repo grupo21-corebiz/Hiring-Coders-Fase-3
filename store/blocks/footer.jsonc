@@ -61,7 +61,7 @@
       "text": "Brasil\n\n Avenida Andrômeda, 2000.\n Bloco 6 e 8 Alphaville SP\n\n R. Ifigenia Maria de Oliveira,\n 3793 - Jr. Piratininga Franca SP",
       "textColor": "c-on-brasil",
       "font": "small",
-      "blockClass": "brasil"
+      "blockClass": ["brasil", "footer-paragraph-container"]
     }
   },
   "rich-text#Argentina": {
@@ -71,7 +71,7 @@
       "text": "Argentina\n\n Soler 5518, 3 Piso C1425BYF\n Palermo Hollywood CABA",
       "textColor": "c-on-argentina",
       "font": "small",
-      "blockClass": "argentina"
+      "blockClass": ["argentina", "footer-paragraph-container"]
     }
   },
   "rich-text#Mexico": {
@@ -81,7 +81,7 @@
       "text": "México\n\n Blvd. Miguel de Cervantes\nSaavedra 169, Granada, Miguel\n Hidalgo, 11520 Ciudad de\n México, CDMX",
       "textColor": "c-on-mexico",
       "font": "small",
-      "blockClass": "mexico"
+      "blockClass": ["mexico", "footer-paragraph-container"]
     }
   },
   "rich-text#Chile": {
@@ -91,7 +91,7 @@
       "text": "Chile\n\n Roberto del Río 1137,\n Providencia. ",
       "textColor": "c-on-chile",
       "font": "small",
-      "blockClass": "chile"
+      "blockClass": ["chile", "footer-paragraph-container"]
     }
   },
   "social-networks": {
