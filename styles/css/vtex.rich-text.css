@@ -27,30 +27,43 @@
     font-weight: 600;
 }
 
-.strong {
-    max-width: 50rem;
-    font-size: 5.4rem;
-}
-
 .container--acorebiz-title {
     margin-top: 7rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .container--signup-title {
+        width: 45%;
+        padding-top: 7rem;
+    }
+    .container--signup-paragraph {
+        margin-left: 7%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .strong--signup-title {
+        font-size: 3.4rem !important;
+        margin-left: 4rem;
+        padding-bottom: 0;
+    }
+}
+
+.container--acorebiz-paragraph {
+    width: 18%;
+    margin-left: 7.5rem;
+    margin-top: -7.5rem;
+    margin-bottom: 10rem;
+}
+.container--signup-paragraph {
+    width: 38%;
+    margin-left: 1.4%;
+    margin-top: -7.5rem;
+    margin-bottom: 10rem;
+}
+
 .container--signup-title {
-    margin-top: 7rem;
-}
-
-:global(.vtex-rich-text-0-x-container--acorebiz-paragraph) {
-    width: 18%;
-    margin-left: 7.5rem;
-    margin-top: -7.5rem;
-    margin-bottom: 10rem;
-}
-
-:global(.vtex-rich-text-0-x-container--signup-paragraph) {
-    width: 18%;
-    margin-left: 7.5rem;
-    margin-top: -7.5rem;
-    margin-bottom: 10rem;
+    margin-left: -13%;
 }
 
 .paragraph--acorebiz-paragraph {
@@ -63,6 +76,5 @@
     max-height: 28.5rem;
     font-size: 1.13rem;
     line-height: 1.4;
+    margin-top: 15%;
 }
-
-

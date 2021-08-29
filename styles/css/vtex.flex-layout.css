@@ -34,10 +34,18 @@
 
 .flexRowContent--main-header {
     position: absolute;
-    padding-bottom: 8rem;
+    padding-top: 1.5rem;
     z-index: 1;
-    background-image: linear-gradient(180deg,rgba(0,0,0,.59),transparent);
 }
+
+@media screen and (min-width: 1024px){
+    .flexRowContent--main-header {
+        background-image: linear-gradient(180deg,rgba(0,0,0,.59),transparent);
+        padding-bottom: 8rem;
+        padding-top: 4rem;
+    }
+}
+
 
 :global(.vtex-menu-2-x-styledLinkContent) {
     transition: .3s;
