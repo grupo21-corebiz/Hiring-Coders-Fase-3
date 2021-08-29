@@ -1,8 +1,8 @@
 {
     "store.custom#sign-up": {
         "blocks": [
-            "image#sign-up",
             "flex-layout.row#signup-text",
+            "image#sign-up",
             "image#blank"
         ]
     },
