@@ -81,12 +81,7 @@
       "product-images#lp",
       "product-summary-price",
       "add-to-cart-button#lp"
-    ],
-    "props": {
-      "blockClass": [
-        "produtos, imagens"
-      ]
-    }
+    ]
   },
   "product-images#lp": {
     "props": {

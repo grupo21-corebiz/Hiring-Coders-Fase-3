@@ -2,9 +2,14 @@
 {
   "store.product": {
     "children": [
-      "image#blank",
+      "image#product",
       "flex-layout.row#main"
     ]
+  },
+  "image#product": {
+    "props":{
+      "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/Banner-Mapa-Corebiz-BR.png"
+    }
   },
   "flex-layout.row#main": {
     "props": {
