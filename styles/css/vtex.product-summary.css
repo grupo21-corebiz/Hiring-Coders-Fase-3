@@ -1,0 +1,7 @@
+.productBrand, .currencyContainer {
+    color: #000;
+}
+.container{
+    background-color: rgb(231, 230, 230);
+    padding: 10px 40px;
+}
