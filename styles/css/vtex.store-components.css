@@ -8,14 +8,14 @@
     }
 }
 
-.imageElement--intro-about-corebiz {
-    position: absolute;
-    right: -16.5rem;
-    top: 0;
-}
-
 @media screen and (min-width: 1024px) {
     .imageElement--signup-image {
+        position: absolute;
+        height: 700px;
+        left: 45%;
+        top: 0;
+    }
+    .imageElement--intro-about-corebiz {
         position: absolute;
         height: 700px;
         left: 45%;
@@ -30,12 +30,21 @@
         top: 15%;
         z-index: 1;
     }
+    .imageElement--intro-about-corebiz {
+        position: absolute;
+        padding-left: 2.5%;
+        top: 15%;
+        z-index: 1;
+    }
     .imageElement--blank-image {
         height: 70rem;
         width: 100%;
         bottom: 314.5px;
     }
-    :global(.vtex-rich-text-0-x-container--signup-paragraph) {
+    .container--signup-paragraph {
+        margin-bottom: 38%;
+    }
+    .container--acorebiz-paragraph {
         margin-bottom: 38%;
     }
 }   
