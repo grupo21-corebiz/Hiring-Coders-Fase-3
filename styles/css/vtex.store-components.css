@@ -42,14 +42,17 @@
         bottom: 314.5px;
     }
     .container--signup-paragraph {
-        margin-bottom: 38%;
+        margin-bottom: 25%;
     }
     .container--acorebiz-paragraph {
-        margin-bottom: 38%;
+        margin-bottom: 25%;
     }
 }   
 
 :global(.vtex-store__template) {
     position: relative;
     overflow: hidden;
+}
+.productBrand {
+    color: #ffffff;
 }

@@ -37,6 +37,9 @@
     padding-top: 1.5rem;
     z-index: 1;
 }
+:global(.vtex-store-footer-2-x-footerLayout) {
+    margin-top: 100px;
+}
 
 @media screen and (min-width: 1024px){
     .flexRowContent--main-header {
@@ -60,4 +63,9 @@
     font-size: 12px;
     font-family: sans-serif;
     margin-top: 1rem;
+}
+
+.flexCol {
+    margin-left: 70px;
+    margin-right: 70px;
 }

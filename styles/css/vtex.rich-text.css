@@ -29,15 +29,16 @@
 
 @media screen and (min-width: 1024px) {
     .container--signup-title {
+        margin-left: -7rem;
         width: 45%;
-        padding-top: 7rem;
+        padding-top: 8rem;
     }
     .container--acorebiz-title {
         width: 45%;
         padding-top: 7rem;
     }
     .container--signup-paragraph {
-        margin-left: 7%;
+        margin-left: 1rem;
     }
     .container--acorebiz-paragraph {
         margin-left: 7%;
@@ -55,6 +56,12 @@
         margin-left: 4rem;
         padding-bottom: 0;
     }
+    .container--signup-paragraph {
+        margin-left: -4.2rem;
+    }
+    .container--signup-title {
+        margin-left: -8rem;
+    }
 }
 
 .container--acorebiz-paragraph {
@@ -65,14 +72,9 @@
 }
 
 .container--signup-paragraph {
-    width: 38%;
-    margin-left: 1.4%;
+    width: 48%;
     margin-top: -7.5rem;
     margin-bottom: 10rem;
-}
-
-.container--signup-title {
-    margin-left: -13%;
 }
 
 .container--acorebiz-title {
