@@ -61,7 +61,7 @@
           "component": "GridSummary",
           "itemsPerRow": {
             "(min-width: 1300px)": 2,
-            "desktop": 2,
+            "desktop": 3,
             "tablet": 2,
             "phone": 1
           }
