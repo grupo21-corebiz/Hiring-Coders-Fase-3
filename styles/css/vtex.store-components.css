@@ -9,6 +9,9 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .imageElement--home-image {
+        content: url(https://www.corebiz.ag/wp-content/uploads/2021/02/Banner-Mapa-Corebiz-BR.png);
+    }
     .imageElement--signup-image {
         position: absolute;
         height: 700px;
@@ -32,7 +35,7 @@
     }
     .imageElement--intro-about-corebiz {
         position: absolute;
-        padding-left: 2.5%;
+        padding-left: 2.5% !important;
         top: 15%;
         z-index: 1;
     }
