@@ -103,4 +103,4 @@ Isso fará com que o modulo pule a verificação da vtex.
 - ContactAreaButtonActive: #000000 ![#000000](https://via.placeholder.com/15/000000/000000?text=+)
 
 ## Agradecimentos
-Agradeço ao pessoal do Slack por ter ajudado logo quando estava precisando, e ao pessoal do Hiring Codes e Vtex IO pela oportunidade de usar a plataforma.
+Agradeçemos à comunidade Hiring Coders do Slack pelo apoio, e ao Hiring Coders e Vtex IO pela oportunidade de usar a plataforma.
