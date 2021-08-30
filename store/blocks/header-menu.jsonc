@@ -1,8 +1,5 @@
 {
   "vtex.menu@2.x:menu#header-menu": {
-    "props": {
-      "experimentalOptimizeRendering": true
-    },
     "children": [
       "menu-item#home",
       "menu-item#acorebiz",

@@ -1,0 +1,7 @@
+.styledLinkContent {
+    transition: .3s;
+}
+
+.styledLinkContent:hover {
+    opacity: .4;
+}
