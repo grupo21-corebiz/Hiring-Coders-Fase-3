@@ -26,15 +26,7 @@
     }
 }
 
-
-:global(.vtex-store-components-3-x-container) {
-    max-width: max-content !important;
-    margin-right: 0;
-    margin-left: 0;
-    width: 100vw;
-}
-
-:global(.vtex-flex-layout-0-x-flexRowContent--flex-vision-values) {
+.flexRowContent--flex-vision-values {
     width: 100vw;
 }
 
@@ -43,9 +35,6 @@
     padding-top: 1.5rem;
     z-index: 1;
 }
-:global(.vtex-store-footer-2-x-footerLayout) {
-    margin-top: 100px;
-}
 
 @media screen and (min-width: 1024px){
     .flexRowContent--main-header {
@@ -53,15 +42,6 @@
         padding-bottom: 8rem;
         padding-top: 4rem;
     }
-}
-
-
-:global(.vtex-menu-2-x-styledLinkContent) {
-    transition: .3s;
-}
-
-:global(.vtex-menu-2-x-styledLinkContent):hover {
-    opacity: .4;
 }
 
 .flexRowContent--text-footer {

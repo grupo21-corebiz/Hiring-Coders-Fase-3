@@ -56,6 +56,14 @@
     position: relative;
     overflow: hidden;
 }
+
+.container {
+    max-width: max-content !important;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100vw;
+}
+
 .productBrand {
     color: #ffffff;
 }
