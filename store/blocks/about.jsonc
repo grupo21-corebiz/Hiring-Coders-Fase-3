@@ -1,0 +1,32 @@
+{
+    "store.custom#about": {
+        "blocks": [
+            "image#about",
+            "image#about-corebiz",
+            "flex-layout.row#values-vision"
+        ]
+    },
+    "image#about": {
+      "props":{
+        "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/Banner-Mapa-Corebiz-BR.png"
+      }
+    },
+    "rich-text#title": { 
+        "props": { 
+          "blockClass": "acorebiz-title",
+          "text": "**a corebiz**",
+          "textAlignment": "CENTER",
+          "textPosition": "LEFT",
+          "font": "t-heading-1"
+        }
+    },
+    "image#about-corebiz": {
+        "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/about-intro-image.jpg",
+          "blockClass": "intro-about-corebiz",
+          "fullWidth": true,
+          "width": "grow"
+        }
+    }
+
+}

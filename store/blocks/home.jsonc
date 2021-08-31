@@ -1,15 +1,88 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
-      "rich-text"
+      "image#home",
+      "search-result-layout.customQuery#home",
+      "reactform"
     ]
   },
-  "rich-text": { 
-    "props": { 
-      "text": "VTEX Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
+  "image#home": {
+    "props":{
+      "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/Banner-Mapa-Corebiz-BR.png"
+    }
+  },
+  // Criação da busca de produtos 
+  "search-result-layout.customQuery#home": {
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#lp",
+      "search-result-layout.mobile"
+    ]
+  },
+  "search-result-layout.mobile": {
+    "children": ["search-content#lp"]
+  },
+  "search-result-layout.desktop#lp": {
+    "children": [
+      "search-content#lp"
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
+  },
+  "search-content#lp": {
+    "blocks": [
+      "gallery#lp",
+      "not-found"
+    ]
+  },
+  // Criação do bloco lista de produtos
+  "gallery#lp": {
+    "props": {
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "(min-width: 1300px)": 3,
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 1
+          }
+        },
+        {
+          "name": "list",
+          "component": "ListSummary",
+          "itemsPerRow": 1
+        }
+      ],
+      "ListSummary": "product-summary.shelf#lp",
+      "GridSummary": "product-summary.shelf#lp"
+    }
+  },
+  "product-summary.shelf#lp": {
+    "children": [
+      "product-summary-name",
+      "product-images#lp",
+      "product-summary-price",
+      "add-to-cart-button#lp"
+    ]
+  },
+  "product-images#lp": {
+    "props": {
+      "showNavigationArrows": "true",
+      "showPaginationDots": true
+    }
+  },
+  "add-to-cart-button#lp": {
+    "props": {
+      "onClickBehavior": "go-to-product-page",
+      "text": "Adicionar ao carrinho"
     }
   }
 }

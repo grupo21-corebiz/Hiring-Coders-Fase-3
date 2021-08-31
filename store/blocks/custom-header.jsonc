@@ -1,0 +1,69 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#menu"
+    ]
+  },
+  "header-layout.mobile": {
+    "children": [
+      "flex-layout.row#menu"
+    ]
+  },
+  "flex-layout.row#menu": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "flex-layout.col#logo",
+      "flex-layout.col#spacer",
+      "vtex.menu@2.x:menu#header-menu",
+      "flex-layout.col#spacer1",
+      "locale-switcher",
+      "flex-layout.col#spacer2"
+    ]
+  },
+  "flex-layout.col#spacer1": {
+    "props": {
+      "marginRight": 10
+    }
+  },
+  "flex-layout.col#spacer2": {
+    "props": {
+      "marginRight": 8
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#logo": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo"]
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://www.corebiz.ag/wp-content/uploads/2020/06/logo-corebiz-global.svg",
+      "width": 105,
+      "height": 23.63,
+      "mobileWidth": 90,
+      "mobileHeight": 32
+    }
+  }
+}

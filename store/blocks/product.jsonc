@@ -1,7 +1,53 @@
+//Criação da página de produtos.
 {
   "store.product": {
     "children": [
-      
+      "image#product",
+      "flex-layout.row#main"
     ]
+  },
+  "image#product": {
+    "props":{
+      "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/Banner-Mapa-Corebiz-BR.png"
+    }
+  },
+  "flex-layout.row#main": {
+    "props": {
+      "marginTop": 12
+    },
+    "children": [
+      "flex-layout.col#left",
+      "flex-layout.col#right"
+    ]
+  },
+  "flex-layout.col#left": {
+    "children": [
+      "product-images"
+    ]
+  },
+  "flex-layout.col#right": {
+    "props": {
+      "preventVerticalStretch": false,
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "product-name",
+      "product-price",
+      "buy-button",
+      "product-description"
+    ]
+  },
+  "product-name": {
+    "props": {
+      "showSku": false,
+      "showProductReference": false,
+      "showBrandName": false
+    }
+  },
+  "product-price": {
+    "props": {
+      "showSavings": true,
+      "showListPrice": true
+    }
   }
 }

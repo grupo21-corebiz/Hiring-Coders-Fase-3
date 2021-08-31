@@ -1,0 +1,41 @@
+{
+  "vtex.menu@2.x:menu#header-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#home",
+      "menu-item#acorebiz"
+    ]
+  },
+  "menu-item#home": {
+    "props": {
+      "id": "menu-item-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "home",
+        "text": "home"
+      }
+    }
+  },
+  "menu-item#acorebiz": {
+    "props": {
+      "id": "menu-item-acorebiz",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about",
+        "noFollow": true,
+        "tagTitle": "a corebiz",
+        "text": "a corebiz"
+      }
+    }
+  }
+}
