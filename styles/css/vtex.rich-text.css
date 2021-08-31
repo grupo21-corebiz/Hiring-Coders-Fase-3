@@ -28,15 +28,15 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .container--signup-title {
-        width: 45%;
+    .container--home-title {
+        width: 55%;
         padding-top: 7rem;
     }
     .container--acorebiz-title {
         width: 45%;
         padding-top: 7rem;
     }
-    .container--signup-paragraph {
+    .container--home-paragraph {
         margin-left: 7%;
     }
     .container--acorebiz-paragraph {
@@ -45,7 +45,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .strong--signup-title {
+    .strong--home-title {
         font-size: 3.4rem !important;
         padding-bottom: 0;
     }
@@ -54,10 +54,10 @@
         margin-left: 0.8rem !important;
         padding-bottom: 0;
     }
-    .container--signup-paragraph {
+    .container--home-paragraph {
         margin-left: 0.8rem !important;
     }
-    .container--signup-title {
+    .container--home-title {
         margin-left: -4.5rem;
     }
     .container--acorebiz-paragraph {
@@ -72,11 +72,10 @@
     margin-bottom: 10rem;
 }
 
-.container--signup-paragraph {
+.container--home-paragraph {
     width: 48%;
-    margin-left: 20%;
     margin-top: -7.5rem;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 
 .container--acorebiz-title {
@@ -90,7 +89,7 @@
     margin-top: 15%;
 }
 
-.paragraph--signup-paragraph {
+.paragraph--home-paragraph {
     max-height: 28.5rem;
     font-size: 1.13rem;
     line-height: 1.4;
