@@ -5,9 +5,7 @@
     },
     "children": [
       "menu-item#home",
-      "menu-item#acorebiz",
-      "menu-item#signup",
-      "menu-item#signin"
+      "menu-item#acorebiz"
     ]
   },
   "menu-item#home": {
@@ -38,57 +36,6 @@
         "tagTitle": "a corebiz",
         "text": "a corebiz"
       }
-    }
-  },
-  "menu-item#signup": {
-    "props": {
-      "id": "menu-item-signup",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/sign-up",
-        "noFollow": true,
-        "tagTitle": "cadastre-se",
-        "text": "cadastre-se"
-      }
-    }
-  },
-  "menu-item#signin": {
-    "props": {
-      "id": "menu-item-signin",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/sign-in",
-        "noFollow": true,
-        "tagTitle": "entrar",
-        "text": "entrar"
-      }
-    }
-  },
-  "flex-layout.row#desktop": {
-    "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true
-    },
-    "children": [
-      "login"
-    ]
-  },
-  "login": {
-    "props": {
-      "emailAndPasswordTitle": "LOG-IN",
-      "accessCodeTitle": "Acess Code LOG-IN",
-      "emailPlaceholder": "e-mail",
-      "passwordPlaceholder": "password",
-      "showPasswordVerificationIntoTooltip": true
     }
   }
 }

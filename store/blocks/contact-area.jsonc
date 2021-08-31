@@ -1,9 +1,0 @@
-{
-    "rich-text#contact-area": {
-        "props": {
-            "text": "contact-area",
-            "textPosition": "CENTER",
-            "textAlignment": "CENTER"
-        }
-    }
-}

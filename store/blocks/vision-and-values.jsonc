@@ -1,9 +1,0 @@
-{
-    "rich-text#vision-and-values": {
-        "props": {
-            "text": "vision-and-values",
-            "textPosition": "CENTER",
-            "textAlignment": "CENTER"
-        }
-    }
-}
